@@ -1,0 +1,68 @@
+[class *= __container]{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.identification{
+    margin-bottom: 200px;
+}
+
+.png{
+    background-color: bisque;
+    display: inline-block;
+}
+
+.png:hover{
+    background-color: brown;
+}
+
+
+
+.illustration{
+    padding: 200px 100px;
+    display: inline-block;
+}
+
+.illustration p{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.illustration p:hover span{
+    color: red;
+}
+
+
+.illustration:hover{
+    background-image: url('../img/illustration.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.illustration:active{
+    background-image: url('../img/illustration.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 4000px;
+}
+
+
+
+.webp{
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+
+.webp:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.identification ul{
+    font-size: 20px;
+}
+
